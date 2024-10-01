@@ -18,6 +18,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.Wait,
 		C3.Plugins.System.Acts.GoToLayoutByName,
 		C3.Plugins.System.Exps.choose,
+		C3.Plugins.InstantGamesBridge.Acts.Initialize,
+		C3.Plugins.System.Acts.WaitForPreviousActions,
 		C3.Plugins.InstantGamesBridge.Acts.ShowBanner
 	];
 };

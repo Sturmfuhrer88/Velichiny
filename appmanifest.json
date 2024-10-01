@@ -1,6 +1,6 @@
 {
-	"name": "Математика Primo Club",
-	"short_name": "Математика Primo Club",
+	"name": "Математика 5-8 лет",
+	"short_name": "Математика 5-8 лет",
 	"description": "Math 4 kids",
 	"start_url": "index.html",
 	"display": "fullscreen",
@@ -9,13 +9,34 @@
 	"icons": [
 		{
 			"src": "icons/icon-16.png",
-			"sizes": "388x346",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "34x34",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-64.png",
+			"sizes": "66x66",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "130x130",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "258x258",
 			"type": "image/png"
 		},
 		{
 			"src": "icons/icon-512.png",
-			"sizes": "512x456",
+			"sizes": "512x512",
 			"type": "image/png"
 		}
-	]
+	],
+	"screenshots": []
 }

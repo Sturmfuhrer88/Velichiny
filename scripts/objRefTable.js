@@ -1,11 +1,12 @@
 const C3 = self.C3;
 self.C3_GetObjectRefTable = function () {
 	return [
-		C3.Plugins.Sprite,
 		C3.Plugins.Text,
+		C3.Plugins.Sprite,
 		C3.Plugins.Touch,
 		C3.Behaviors.Sin,
 		C3.Plugins.Audio,
+		C3.Plugins.Eponesh_GameScore,
 		C3.Plugins.InstantGamesBridge,
 		C3.Plugins.System.Cnds.OnLayoutStart,
 		C3.Plugins.Sprite.Acts.SetVisible,
@@ -18,13 +19,10 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.Wait,
 		C3.Plugins.System.Acts.GoToLayoutByName,
 		C3.Plugins.System.Exps.choose,
-		C3.Plugins.InstantGamesBridge.Acts.Initialize,
-		C3.Plugins.System.Acts.WaitForPreviousActions,
 		C3.Plugins.InstantGamesBridge.Acts.ShowBanner
 	];
 };
 self.C3_JsPropNameTable = [
-	{primologo: 0},
 	{razmer: 0},
 	{kolvo: 0},
 	{bgsprite: 0},
@@ -76,12 +74,12 @@ self.C3_JsPropNameTable = [
 	{tolst2: 0},
 	{dlin: 0},
 	{dlin2: 0},
+	{GamePush: 0},
 	{Sprite3: 0},
 	{InstantGamesBridge: 0}
 ];
 
 self.InstanceType = {
-	primologo: class extends self.ISpriteInstance {},
 	razmer: class extends self.ITextInstance {},
 	kolvo: class extends self.ITextInstance {},
 	bgsprite: class extends self.ISpriteInstance {},
@@ -132,6 +130,7 @@ self.InstanceType = {
 	tolst2: class extends self.ISpriteInstance {},
 	dlin: class extends self.ISpriteInstance {},
 	dlin2: class extends self.ISpriteInstance {},
+	GamePush: class extends self.IInstance {},
 	Sprite3: class extends self.ISpriteInstance {},
 	InstantGamesBridge: class extends self.IInstance {}
 }
